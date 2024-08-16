@@ -138,12 +138,14 @@
 							<div class="button-box d-none d-sm-block">
 								<a class="btn-style-one theme-btn">
 									<div class="btn-wrap">
-										<select id="languageSwitcher" style=" background-color: transparent;color:#fff;" >
+										<!-- <div id="google_translate_element" class="transater"></div>  -->
+
+									  <select id="google_translate_element" style=" background-color: transparent;color:#fff;" >
 											<option value="en">English</option>
 											<option value="de">German</option>
 											<option value="fr">Arabic</option>
 											
-										</select>
+										</select> 
 									</div>
 								</a>
 							</div>
@@ -583,7 +585,7 @@
 							<div class="testimonial-block_two">
 								<div class="testimonial-block_two-inner">
 									<div class="testimonial-block_two-quote flaticon-quote-2"></div>
-									<div class="testimonial-block_two-text">I've traveled with Vacasky several times,
+									<div class="testimonial-block_two-text">I've traveled with  several times,
 										and each time has been a unique and unforgettable experience. Their team of
 										travel specialists are knowledgeable, friendly, and always go the extra mile to
 										make sure that everything and everyone is taken care of. I highly recommend
@@ -1187,7 +1189,7 @@
 
 				<div class="footer-bottom">
 					<div class="d-flex align-items-center justify-content-between flex-wrap">
-						<div class="copyright">Copyright &copy; 2023 Vacasky. All rights reserved.</div>
+						<div class="copyright">Copyright &copy; 2024 All rights reserved.</div>
 						<ul class="footer-bottom_nav">
 							<li><a href="#">Privacy policy</a></li>
 							<li><a href="#">Terms & Condition</a></li>
@@ -1238,6 +1240,16 @@
 
 	<script src="static/js/script.js"></script>
 
+	<script src="script.js"></script>
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        } 
+  </script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
 
