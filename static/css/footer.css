@@ -10,7 +10,7 @@
 .main-footer{
 	position:relative;
 	padding: 70px 0px 60px;
-	background-color: #00712D;
+	background-color: var(--color-two);
 }
 
 .footer-nav{
@@ -93,7 +93,7 @@
 
 .main-footer.style-two{
 	padding: var(--padding-zero);
-	background-color: #00712D;
+	background-color: var(--white-color);
 }
 
 .main-footer.style-two .inner-container{
@@ -132,7 +132,7 @@
 	position: relative;
 	padding: 70px 45px;
 	border-radius: 25px;
-	background-color: #00712D;
+	background-color: var(--color-three);
 }
 
 .newsletter-title{
@@ -160,7 +160,7 @@
 	position: relative;
 	padding: 85px 45px;
 	border-radius: 25px;
-	background-color: #00712D;
+	background-color: var(--color-two);
 }
 
 /* Footer Nav */

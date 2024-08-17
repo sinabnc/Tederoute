@@ -68,7 +68,7 @@
 	display: inline-block;
 	position: relative;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight:bolder;
 	line-height: 24px;
 }
 
@@ -80,7 +80,7 @@
 	position: relative;
 	font-family: var(--font-family-Poppins);
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: bolder;
 	line-height: 24px;
 	text-transform: capitalize;
 	text-decoration: none;
@@ -92,7 +92,7 @@
 .mainnav ul.main_menu li.current > a, 
 .mainnav ul.main_menu li.active > a, 
 .mainnav ul.main_menu li:hover > a {
-	color: #CCE0AC;
+	color: #A2CA71;
 }
 
 .mainnav ul.main_menu li .sub-menu {
